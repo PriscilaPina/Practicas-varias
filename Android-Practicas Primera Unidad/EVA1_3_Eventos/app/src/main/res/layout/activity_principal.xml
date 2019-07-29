@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.priscy.eva1_3_eventos.Principal">
+
+    <Button
+        android:text="Mi Evento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Clic"
+        android:id="@+id/button1" />
+
+    <Button
+        android:text="Mismo Evento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Clic"
+        android:id="@+id/button2" />
+
+    <Button
+        android:text="Otro Evento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Clic1"
+        android:id="@+id/button3" />
+
+    <Button
+        android:text="Listener"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnListen" />
+
+    <Button
+        android:text="Clase Anonima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAnon" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:id="@+id/txtImp" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Idiomas</string>
+    <string name="Nombre">Nombre:</string>
+    <string name="Apellido">Apellido:</string>
+    <string name="Edad">Edad:</string>
+    <string name="hint_Nom">Introduce tu Nombre</string>
+    <string name="hint_Ape">Introduce tu Apellido</string>
+    <string name="hint_Eda">Introduce tu Edad</string>
+
+    <string name="Name">Name:</string>
+    <string name="lName">Last Name:</string>
+    <string name="Age">Age:</string>
+    <string name="hint_Name">Name</string>
+    <string name="hint_lName">Last Name</string>
+    <string name="hint_Age">Age</string>
+</resources>

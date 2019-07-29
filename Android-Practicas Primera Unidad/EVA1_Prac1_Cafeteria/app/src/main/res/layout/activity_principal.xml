@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.priscy.eva1_prac1_cafeteria.Principal">
+
+    <RadioGroup
+        android:id="@+id/rdGrpCof"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdAme"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Americano ($20)"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <RadioButton
+            android:id="@+id/rdCapu"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Capuchino ($48)"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="44dp" />
+
+        <RadioButton
+            android:id="@+id/rdExpr"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Expresso ($30)"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="86dp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="118dp">
+
+        <TextView
+            android:id="@+id/lblCant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cantidad: "
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="118dp"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/txtCant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Introduce la cantidad" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lblExt"
+        android:layout_width="87dp"
+        android:layout_height="28dp"
+        android:text="Extras:"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <CheckBox
+        android:id="@+id/cBxAzu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Azúcar ($1)"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <CheckBox
+        android:id="@+id/cBxCre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crema ($1)"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <TextView
+        android:id="@+id/lblPed"
+        android:layout_width="329dp"
+        android:layout_height="71dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <Button
+        android:id="@+id/btnTot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="Total"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+</LinearLayout>
